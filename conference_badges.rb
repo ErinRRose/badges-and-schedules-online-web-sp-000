@@ -1,13 +1,15 @@
 def badge_maker(name)
-  print "Hello, my name is #{name}."
+  "Hello, my name is #{name}."
 end
 
-def assign_rooms(name, room)
-  each_with_index
+def batch_badge_creator(attendees)
+
 end
 
-def batch_badge_creator
-
+def assign_rooms(attendees)
+  attendees.map.each_with_index do |attendee, index|
+    "Hello, #{attendee}! You'll be assigned to room #{index+1}"
+  end
 end
 
 def printer
