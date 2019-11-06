@@ -1,9 +1,9 @@
 def badge_maker(name)
   puts "Hello, my name is #{name}."
-end 
+end
 
 def assign_rooms(name, room)
-  each_with_index = 
+  each_with_index =
 end
 
 def printer
